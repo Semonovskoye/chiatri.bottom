@@ -17,7 +17,8 @@ for (const type of Object.keys(encryptedQuestionBank)) {
     all[type][diff] = getQuestions(type, diff);
   }
 }
-console.log(all);'''
+console.log(all);
+'''
 
 <br></br>
 <h2>Detailed commands</h2>

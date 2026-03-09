@@ -19,8 +19,7 @@ for (const type of Object.keys(encryptedQuestionBank)) {
 }
 console.log(all);
 
-<h2>Detailed commands</h2>
-<br>
+<h2>Detailed commands</h2><br>
 <h3>Decrpting answers</h3>
 const all = {};
 for (const type of Object.keys(encryptedQuestionBank)) {

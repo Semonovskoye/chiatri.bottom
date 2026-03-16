@@ -4,19 +4,19 @@ const questionBank = {
         level1: [
             {
                 question: "MB-CSVCDTPT-L1-001. Quan sát hình và cho biết gene là gì?",
-                image: "/media/Grade12/5103.png",
+                image: "https://nhantri.top/media/Grade12/5103.png",
                 options: ["A. Gene là một đoạn của phân tử DNA mang thông tin mã hoá cho một chuỗi polypeptide.", "B. Gene là một đoạn của phân tử DNA mang thông tin mã hoá cho một chuỗi polypeptide hay một phân tử RNA.", "C. Gene là một đoạn của phân tử RNA mang thông tin mã hoá cho một chuỗi polypeptide hay một số phân tử RNA.", "D. Gene là một đoạn của phân tử DNA mang thông tin mã hoá cho một số loại chuỗi polypeptide hay một số loại phân tử RNA."],
                 answer: 1
             },
             {
                 question: "MB-CSVCDTPT-L1-002. Quan sát hình và cho biết các nucleotide trong một sợi của DNA liên kết với nhau bằng liên kết:",
-                image: "/media/Grade12/5103tt.png",
+                image: "https://nhantri.top/media/Grade12/5103tt.png",
                 options: ["A. Liên kết ion.", "B. Liên kết hydrogen.", "C. Liên kết phosphodiester.", "D. Cầu liên kết H<sub>2</sub>S"],
                 answer: 2
             },
             {
                 question: "MB-CSVCDTPT-L1-003. Điều nào dưới đây là không đúng khi nói về các vùng của gene?",
-                image: "/media/Grade12/5104.png",
+                image: "https://nhantri.top/media/Grade12/5104.png",
                 options: ["A. Vùng mở đầu nằm ở đầu 3' còn vùng kết thúc nằm ở đầu 5' của mạch mang mã gốc.", "B. Vùng điều hòa chứa trình tự khởi động cần thiết cho sự khởi đầu tổng hợp RNA.", "C. Vùng kết thúc mang tín hiệu kết thúc quá trình tổng hợp RNA.", "D. Vùng mã hóa nằm ở giữa và có vai trò điều hòa hoạt động của gene."],
                 answer: 3
             },
@@ -50,7 +50,7 @@ const questionBank = {
         level2: [
             {
                 question: "MB-CSVCDTPT-L2-001. Quan sát hình và cho biết DNA và RNA khác nhau ở đặc điểm:",
-                image: "/media/Grade12/5103ttt.png",
+                image: "https://nhantri.top/media/Grade12/5103ttt.png",
                 options: ["A. chúng đều được cấu tạo từ đường deoxyribose.", "B. chúng đều được cấu tạo từ đường ribose.", "C. DNA được cấu tạo từ đường deoxyribose, còn RNA được cấu tạo từ đường ribose.", "D. DNA được cấu tạo từ đường ribose, còn RNA được cấu tạo từ đường deoxyribose."],
                 answer: 2
             },
@@ -72,7 +72,7 @@ const questionBank = {
             },
             {
                 question: "MB-CSVCDTPT-L2-005. Phân tử nucleic acid số mấy đã sẵn sàng tham gia làm khuôn cho quá trình dịch mã?",
-                image: "/media/Grade12/rnaphanloai.png",
+                image: "https://nhantri.top/media/Grade12/rnaphanloai.png",
                 options: ["A. (I).",
                     "B. (II).",
                     "C. (III).",
@@ -81,7 +81,7 @@ const questionBank = {
             },
             {
                 question: "MB-CSVCDTPT-L2-005. Phân tử nucleic acid số mấy là tRNA",
-                image: "/media/Grade12/rnaphanloai.png",
+                image: "https://nhantri.top/media/Grade12/rnaphanloai.png",
                 options: ["A. (I).",
                     "B. (II).",
                     "C. (III).",
@@ -122,7 +122,7 @@ const questionBank = {
 
             {
                 question: "MB-CCDTPT-L1-003. Điều nào dưới đây là đúng khi nói về gene ở sinh vật nhân sơ và sinh vật nhân thực?",
-                image: "/media/Grade12/IntronExon.png",
+                image: "https://nhantri.top/media/Grade12/IntronExon.png",
                 options: ["A. Gene ở sinh vật nhân sơ là gene phân mảnh còn gene ở sinh vật nhân thực là gene liên tục.", "B. Gene ở sinh vật nhân sơ là gene liên tục còn gene ở sinh vật nhân thực là gene phân mảnh.", "C. Gene ở sinh vật nhân sơ và sinh vật nhân thực đều là gene liên tục.", "D. Gene ở sinh vật nhân sơ và sinh vật nhân thực đều là gene phân mảnh."],
                 answer: 1
             },
@@ -212,7 +212,7 @@ const questionBank = {
         level2: [
             {
                 question: "MB-CCDTPT-L2-001. Khi nói về các enzyme tham gia quá trình tái bản DNA, nhận định nào sau đây là đúng?",
-                image: "/media/Grade12/IntronExon.png",
+                image: "https://nhantri.top/media/Grade12/IntronExon.png",
                 options: ["A. Thứ tự tham gia của các enzyme là Tháo xoắn → DNA- polymerase → RNA - polymerase → Ligase.", "B. Cả DNA - polymerase và RNA - polymerase đều chỉ di chuyển trên mạch khuôn theo chiều 3’-5’.", "C. RNA - polymerase có chức năng tháo xoắn và tổng hợp đoạn mồi.", "D. DNA - polymerase có thể tổng hợp nucleotide đầu tiên của chuỗi polinucleotide."],
                 answer: 2
             },
@@ -285,7 +285,7 @@ const questionBank = {
                     "D. Điều hòa biểu hiện của gene."
                 ],
                 "answer": 1,
-                "image": "/media/Grade12/Qtpm.png"
+                "image": "https://nhantri.top/media/Grade12/Qtpm.png"
             },
             {
                 "question": "MB-CCDTPT-L2-015. Hình dưới đây mô tả quá trình nào trong tế bào?",
@@ -296,7 +296,7 @@ const questionBank = {
                     "D. Điều hòa biểu hiện của gene."
                 ],
                 "answer": 2,
-                "image": "/media/Grade12/Qtdm.png"
+                "image": "https://nhantri.top/media/Grade12/Qtdm.png"
             },
             {
                 "question": "MB-CCDTPT-L2-016. Hình dưới đây mô tả quá trình nào trong tế bào?",
@@ -307,7 +307,7 @@ const questionBank = {
                     "D. Điều hòa biểu hiện của gene."
                 ],
                 "answer": 0,
-                "image": "/media/Grade12/5106.png"
+                "image": "https://nhantri.top/media/Grade12/5106.png"
             },
             {
                 "question": "MB-CCDTPT-L2-017. Một amino acid có triplet tương ứng là 3’AGT5’. Theo lí thuyết, triplet mã hóa codon nào sau đây?",
@@ -340,7 +340,7 @@ const questionBank = {
                     "D. dịch mã và các amino acid."
                 ],
                 "answer": 3,
-                "image": "/media/Grade12/dichmaaa.png"
+                "image": "https://nhantri.top/media/Grade12/dichmaaa.png"
             },
             // Thêm các câu hỏi MC level 2 khác...
         ],
@@ -357,13 +357,13 @@ const questionBank = {
             },
             {
                 question: "MB-CCDTPT-L3-003. Vì sao trên mạch khuôn 5’-3’, mạch mới lại được tổng hợp ngắt quãng?",
-                image: "/media/Grade12/TbDNA.png",
+                image: "https://nhantri.top/media/Grade12/TbDNA.png",
                 options: ["A. Vì trên gene có các đoạn Okazaki", "B.Vì gene không liên tục có các đoạn Exon và đoạn Intron xen kẽ nhau.", "C.Vì enzyme DNA polymerase chỉ tổng hợp mạch mới theo chiều 5’-3’.", "D. Vì enzyme DNA polymerase chỉ tổng hợp mạch mới theo chiều 3’-5’."],
                 answer: 2
             },
             {
                 question: "MB-CCDTPT-L3-004. Cho một đoạn DNA ở khoảng giữa có một đơn vị sao chép như hình vẽ. O là điểm khởi đầu sao chép, I, II, III, IV chỉ các đoạn mạch đơn của DNA.Đoạn nào có mạch đơn mới được tổng hợp gián đoạn?",
-                image: "/media/Grade12/DNApolymerase.png",
+                image: "https://nhantri.top/media/Grade12/DNApolymerase.png",
                 options: ["A. I và III. ", "B. I và II. ", "C. II và III.", "D. I và IV"],
                 answer: 3
             },
@@ -698,7 +698,7 @@ const questionBank = {
             },
             {
                 question: "MB-DTMG-L2-005. Với hai cặp gene không allele cùng nằm trên một cặp nhiễm sắc thể tương đồng thì cách viết kiểu gene nào dưới đây là không đúng?",
-                image: "/media/Grade12/KieugenBT.png",
+                image: "https://nhantri.top/media/Grade12/KieugenBT.png",
                 options: ["", "", "", ""],
                 answer: 2
             },
@@ -864,7 +864,7 @@ const questionBank = {
                     "D. 34%."
                 ],
                 "answer": 0,
-                "image": "/media/Grade12/hoanvigenebdth.png"
+                "image": "https://nhantri.top/media/Grade12/hoanvigenebdth.png"
             },
             // Thêm các câu hỏi MG level 3 khác...
         ]
@@ -1009,7 +1009,7 @@ const questionBank = {
             },
             {
                 "question": "MB-DTBSMĐ-L3-002. Ở người, xét 2 gene trên 2 cặp nhiễm sắc thể thường; gene quy định nhóm máu có 3 allele là I<sup>A</sup>, I<sup>B</sup>, I<sup>O</sup>. Kiểu gene I<sup>A</sup>I<sup>A</sup> và I<sup>A</sup>I<sup>O</sup> quy định nhóm máu A; kiểu gene I<sup>B</sup>I<sup>B</sup>và I<sup>B</sup>I<sup>O</sup> quy định nhóm máu B; kiểu gene I<sup>A</sup>I<sup>B</sup> quy định nhóm máu AB; kiểu gene I<sup>O</sup>I<sup>O</sup> quy định nhóm máu O; gene quy định dạng tóc có 2 allele, allele D trội hoàn toàn so với allele d. Biết rằng cặp vợ chồng 1 - 2 có nhóm máu giống nhau, 2 người con gái 5, 6 có kiểu hình khác bố, mẹ về cả 2 tính trạng; đồng thời 2 người con gái này có nhóm máu khác nhau. Theo lí thuyết, xác suất sinh con đầu lòng là con gái có nhóm máu A, tóc thẳng của cặp vợ chồng 7 - 8 là",
-                "image": "/media/Grade12/phaheabo.png",
+                "image": "https://nhantri.top/media/Grade12/phaheabo.png",
                 "options": [
                     "A. 5/108.",
                     "B. 10/27.",
@@ -1172,7 +1172,7 @@ const questionBank = {
                     "C. Thay thế 1 cặp nucleotide.",
                     "D. Mất 2 cặp nucleotide."],
                 answer: 2,
-                "image": "/media/Grade12/hongcauliem.png"
+                "image": "https://nhantri.top/media/Grade12/hongcauliem.png"
             },
             {
                 question: "MB-ĐBG-L2-007. Khi nói về bệnh Phenylketonuria ở người, phát biểu nào sau đây là đúng?",
@@ -1181,7 +1181,7 @@ const questionBank = {
                     "C. Bệnh Phenylketonuria là bệnh do đột biến ở gene mã hóa enzyme xúc tác cho phản ứng chuyển hóa amino acid phenylalanine thành tyrosine trong cơ thể.",
                     "D. Bệnh Phenylketonuria là do lượng amino acid tyrosine dư thừa và ứ đọng trong máu, chuyển lên não gây đầu độc tế bào thần kinh."],
                 answer: 2,
-                "image": "/media/Grade12/hongcauliem.png"
+                "image": "https://nhantri.top/media/Grade12/hongcauliem.png"
             },
             {
                 question: "MB-ĐBG-L2-008. Một nhiễm sắc thể có trình tự <u>ABCDEG</u>.<u>HKM</u> đã bị đột biến thành nhiễm sắc thể có trình tự <u>ABCDCDEG</u>.<u>HKM</u>. Dạng đột biến này thường:",
@@ -1458,7 +1458,7 @@ const questionBank = {
         level2: [
             {
                 question: "MB-DBNST-L2-001. Hình ảnh mô tả số lượng NST ở tế bào soma A và B của hai cơ thể thuộc một loài sinh vật lưỡng bội. Nếu tế bào A là tế bào của cơ thể bình thường, thì tế bào B thuộc thể đột biến nào?",
-                image: "/media/Grade12/Tamnhiem.png",
+                image: "https://nhantri.top/media/Grade12/Tamnhiem.png",
                 options: ["A. Thể một nhiễm.", "B. Thể ba nhiễm.", "C. Thể đa bội.", "D. Thể tam bội."],
                 answer: 1,
             },
@@ -1653,7 +1653,7 @@ const questionBank = {
         level1: [
             {
                 question: "MB-DTHN&UDTH-L1-001. Ở người, tính trạng mắt đen là trội hoàn toàn so với tính trạng mắt xanh. Một gia đình có bố mẹ mắt đen sinh được một người con gái mắt xanh và một người con gái mắt đen. Sơ đồ nào sau đây phản ánh đúng sự di truyền tính trạng màu mắt ở gia đình này?",
-                image: "/media/Grade12/phahedung.png",
+                image: "https://nhantri.top/media/Grade12/phahedung.png",
                 options: ["A. Sơ đồ (I).",
                     "B. Sơ đồ (II).",
                     "C. Sơ đồ (III).",
@@ -1775,7 +1775,7 @@ const questionBank = {
         level2: [
             {
                 question: "MB-DTHN&UDTH-L2-001. Sơ đồ phả hệ trên mô tả sự di truyền một bệnh ở người do một trong hai allele của một gene quy định. Biết rằng không xảy ra đột biến ở tất cá các cá thể trong phả hệ. Trong những người thuộc phả hệ trên, những người chưa thể xác định được chính xác kiểu gene do chưa có đủ thông tin là",
-                image: "/media/Grade12/sodophe.png",
+                image: "https://nhantri.top/media/Grade12/sodophe.png",
                 options: ["A. 8 và 13.", "B. 1 và 4.", "C. 17 và 20.", "D. 15 và 16."],
                 answer: 2
             },
@@ -1902,13 +1902,13 @@ const questionBank = {
         level3: [
             {
                 question: "MB-DTHN&UDTH-L3-001. Ở người, tính trạng tóc xoăn là trội hoàn toàn so với tính trạng tóc thẳng. Một gia đình có bố, mẹ tóc xoăn đã sinh ra hai người con, trong đó có một người con gái tóc thẳng. Phả hệ nào sau đây phản ánh đúng sự di truyền tính trạng dạng tóc ở gia đình này?",
-                image: "/media/Grade12/Timphahe.png",
+                image: "https://nhantri.top/media/Grade12/Timphahe.png",
                 options: ["", "", "", ""],
                 answer: 1
             },
             {
                 question: "MB-DTHN&UDTH-L3-002. Ở người, cùng với hệ nhóm máu ABO, hệ nhóm máu Rhesus (Rh) có vai trò quan trọng do đều gây ra chứng tan huyết khi không tương đồng nhóm máu. Một người phụ nữ có nhóm máu Rh âm (Rh<sup>-</sup>) thường mang thai và sinh con thứ nhất có nhóm máu Rh dương (Rh<sup>+</sup>) bình thường, nhưng dễ bị sảy thai ở các lần mang thai tiếp theo nếu thai nhi có nhóm máu Rh<sup>+</sup>. Tỉ lệ người có nhóm máu Rh<sup>-</sup> chiếm khoảng 17 % ở người da trắng, 7 % ở người da đen và 0, 5 % ở người da vàng (trong đó có người Việt). Gene quy định nhóm máu Rh có 2 allele là R và r, nằm trên NST thường. Allele R quy định nhóm máu Rh<sup>+</sup> trội hoàn toàn so với allele r quy định nhóm máu Rh<sup>-</sup>. Một cặp vợ chồng người Việt có con thứ nhất Rh<sup>+</sup>, nhưng người vợ có một anh ruột và hai cháu ruột Rh<sup>-</sup>. Phát biểu tư vấn di truyền nào dưới đây là phù hợp với cặp vợ chồng này khi họ dự định sinh con lần thứ hai?",
-                image: "/media/Grade12/Timphahe.png",
+                image: "https://nhantri.top/media/Grade12/Timphahe.png",
                 options: ["A. Người vợ không có nguy cơ sảy thai, vì đã có con thứ nhất Rh<sup>+</sup> và xác suất Rh<sup>-</sup> ở người Việt thấp.",
                     "B. Người vợ không có nguy cơ sảy thai, vì con thứ nhất Rh<sup>+</sup> cho thấy kiểu gene người chồng là RR.",
                     "C. Người vợ có nguy cơ sảy thai, vì xác suất người vợ có nhóm máu Rh<sup>-</sup> cao hơn mức chung của quần thể.",
@@ -1917,7 +1917,7 @@ const questionBank = {
             },
             {
                 question: "MB-DTHN&UDTH-L3-003. Phenylketonuria (PKU) là một bệnh di truyền do thiếu enzyme chuyển hoá amino acid phenyl alanine. Sơ đồ phả hệ của một gia đình sau đây bị bệnh này. Phả hệ cho thấy bệnh phenylketonuria (PKU) được quy định bởi:",
-                image: "/media/Grade12/genelannstt.png",
+                image: "https://nhantri.top/media/Grade12/genelannstt.png",
                 options: ["A. gene trội trên nhiễm sắc thể giới tính X.", "B. gene lặn trên nhiễm sắc thể thường.", "C. gene trội trên nhiễm sắc thể thường.", "D. gene lặn trên nhiễm sắc thể giới tính X."],
                 answer: 1
             },
@@ -1932,7 +1932,7 @@ const questionBank = {
             },
             {
                 question: "MB-DTHN&UDTH-L3-004. Vi khuẩn <em>Bacillus thringiensis<em/> có gene Bt quy định sản xuất độc tố Bt tiêu diệt một số loài sâu hại. Vi khuẩn <em>Argobacterium tumefaciens<em/> có khả năng lây nhiễm tế bào thực vật và chuyển gene vào nhiễm sắc thể nhờ vào một loại plasmid đặc biệt. Hình ảnh thể hiện quy trình tạo giống ngô kháng sâu từ hai loài vi khuẩn này nhờ áp dụng công nghệ gene. Nhận định nào dưới đây là đúng?",
-                image: "/media/Grade12/genetthkt.png",
+                image: "https://nhantri.top/media/Grade12/genetthkt.png",
                 options: ["A. Quá trình này không cần sử dụng enzyme giới hạn.",
                     "B. Tất cả các tế bào sinh dưỡng của cây ngô đều mang gene Bt.",
                     "C. Độ tố Bt của cây được sản xuất từ tế bào vi khuẩn <em> Agrobacterium tumefaciens <em/>.",
@@ -1941,7 +1941,7 @@ const questionBank = {
             },
             {
                 question: "MB-DTHN&UDTH-L3-005. Có khoảng 3% dân số bình thường mang allele đột biến ở gene CFTR gây bệnh xơ nang. Trong một gia đình, cả người vợ và chồng đều là thể mang một động biến CFTR. Cặp vợ chồng này sinh ra đứa con đầu lòng bị bệnh xơ nang, vì vậy khi mang thai đứa con thứ hai, họ muốn được bác sĩ tư vấn và kiểm tra để xác định thai nhi bị bệnh hay hoàn toàn không mang gene bệnh hay là thể mang gene bệnh. Các mẫu DNA từ các thành viên trong gia đình và thai nhi được thu thập, PCR và điện di trên gel, kết quả như trong hình. Nếu thai nhi sinh ra, lớn lên và kết hôn với người bình thường thì xác suất sinh ra đứa con trai đầu lòng bị bệnh xơ nang là bao nhiêu phần trăm?",
-                image: "/media/Grade12/diendithai.png",
+                image: "https://nhantri.top/media/Grade12/diendithai.png",
                 options: ["A. 0,3%.",
                     "B. 0, 375 %.",
                     "C. 0, 15 %.",
@@ -1950,7 +1950,7 @@ const questionBank = {
             },
             {
                 question: "MB-DTHN&UDTH-L3-005. Ở người, bệnh A do 1 gene có 2 allele trên NST thường quy định, allele trội quy không bị bệnh trội hoàn toàn so với allele lặn quy định bị bệnh; bệnh B do 1 cặp gene khác nằm trên vùng không tương đồng của NST giới tính X quy định, allele trội quy định kiểu hình bình thường trội hoàn toàn so với allele lặn quy định kiểu hình bị bệnh. Cho sơ đồ phả hệ trong hình, theo lí thuyết, số người có thể xác định chính xác kiểu gene là",
-                image: "/media/Grade12/benhab.png",
+                image: "https://nhantri.top/media/Grade12/benhab.png",
                 options: ["A. 4.",
                     "B. 5.",
                     "C. 7.",
@@ -2453,7 +2453,7 @@ const questionBank = {
 
             {
                 "question": "MB-HTTHTHHĐ-L2-001. Một quần thể có thành phần kiểu gene biến đổi qua các thế hệ như trong bảng. Quần thể đang chịu tác động của nhân tố tiến hóa nào sau đây?",
-                image: "/media/Grade12/gpknn.png",
+                image: "https://nhantri.top/media/Grade12/gpknn.png",
                 "options": [
                     "A. Giao phối không ngẫu nhiên.",
                     "B. Dòng gene.",
@@ -2481,7 +2481,7 @@ const questionBank = {
 
             {
                 "question": "MB-HTTHTHHĐ-L3-001. Sơ đồ thể hiện kích thước quần thể thỏ ở hai khu vực khác nhau. Nhận định nào dưới đây đúng về hai quần thể thỏ nêu trên?",
-                "image": "/media/Grade12/ttgioihan.png",
+                "image": "https://nhantri.top/media/Grade12/ttgioihan.png",
                 "options": [
                     "A. Cả quần thể A và B đều tăng trưởng theo tiềm năng sinh học.",
                     "B. Cả quần thể A và B đều tăng trưởng trong điều kiện môi trường giới hạn.",
@@ -2493,7 +2493,7 @@ const questionBank = {
             },
             {
                 "question": "MB-HTTHTHHĐ-L3-002. Sơ đồ thể hiện kích thước quần thể thỏ ở hai khu vực khác nhau. Ở năm thứ 15, mật độ trung bình của quần thể thỏ ở khu vực A và B lần lượt là 56 con/ha và 65 con/ha. Diện tích khu vực phân bố của quần thể A và B lần lượt là:",
-                "image": "/media/Grade12/ttgioihan.png",
+                "image": "https://nhantri.top/media/Grade12/ttgioihan.png",
                 "options": [
                     "A. 261, 5 ha và 492, 3 ha.",
                     "B. 492, 3 ha và 261, 5 ha.",
@@ -2889,7 +2889,7 @@ const questionBank = {
                     "D. Thỏ và thần lằn có quan hệ họ hàng gần gũi hơn so với quan hệ họ hàng giữa ếch và thần lằn."
                 ],
                 "answer": 3,
-                "image": "/media/Grade12/phatsinhcl.png"
+                "image": "https://nhantri.top/media/Grade12/phatsinhcl.png"
             },
             {
                 question: "MB-SPSCL-L3-003. Trong điều kiện của Trái Đất hiện nay, nếu các đại phân tử hữu cơ được hình thành trong tự nhiên thì từ các chất này có thể tiến hóa hình thành nên các tế bào sơ khai được không? Vì sao?",
@@ -3234,7 +3234,7 @@ const questionBank = {
             },
             {
                 question: "MB-STHQT-L2-016. Trong hình thể hiện sự phân bố cá thể của 3 quần thể sinh vật trong một khu vực khảo sát. Nhận xét đúng về mỗi quần thể là",
-                "image": "/media/Grade12/hinhphanbo.png",
+                "image": "https://nhantri.top/media/Grade12/hinhphanbo.png",
                 options: ["A. Điều kiện sống của môi trường đối với quần thể I là phân bố đồng đều.",
                     "B. Quần thể II có mật độ cá thể cao nhất.",
                     "C. Kích thước của quần thể III là nhỏ nhất.",
@@ -3244,7 +3244,7 @@ const questionBank = {
             },
             {
                 question: "MB-STHQT-L2-017. Đồ thị sau đây mô tả sự tăng trưởng của một quần thể sinh vật theo thời gian. Thời điểm đánh dấu trên đồ thị thể hiện tỉ lệ sinh bằng tỉ lệ tử vong là",
-                "image": "/media/Grade12/tlstlt.png",
+                "image": "https://nhantri.top/media/Grade12/tlstlt.png",
                 options: ["A. Thời điểm (E).",
                     "B. Thời điểm (D).",
                     "C. Thời điểm (A).",
@@ -3262,7 +3262,7 @@ const questionBank = {
                     "C. Quần thể số 4 thuộc dạng quần thể ổn định.",
                     "D. Quần thể số 2 có kích thước đang tăng lên."],
                 answer: 1,
-                "image": "/media/Grade12/bangtlnhtuoi.png"
+                "image": "https://nhantri.top/media/Grade12/bangtlnhtuoi.png"
             },
             {
                 question: "MB-STHQT-L2-002. Sự hiểu biết về tỉ lệ giới tính của quần thể sinh vật có ý nghĩa gì trong chăn nuôi?",
@@ -3288,7 +3288,7 @@ const questionBank = {
 
                 options: ["A. cạnh tranh.", "B. vật ăn thịt - con mồi.", "C. cộng sinh.", "D. hợp tác."],
                 answer: 1,
-                "image": "/media/Grade12/consagiong.png"
+                "image": "https://nhantri.top/media/Grade12/consagiong.png"
             },
             {
                 question: "MB-STHQX-L1(NT1)-003. Quần xã sinh vật là",
@@ -3421,7 +3421,7 @@ const questionBank = {
 
                 options: ["A. cạnh tranh.", "B. hội sinh.", "C. hợp tác.", "D. không có quan hệ."],
                 answer: 0,
-                "image": "/media/Grade12/consagiong.png"
+                "image": "https://nhantri.top/media/Grade12/consagiong.png"
             },
             {
                 question: "MB-STHQX-L2-003. Sự phân tầng của thực vật trong quần xã rừng mưa nhiệt đới chủ yếu là do sự khác nhau về nhu cầu:",
@@ -3474,7 +3474,7 @@ const questionBank = {
                     "D. Loài không ưu thế."
                 ],
                 "answer": 3,
-                "image": "/media/Grade12/thanhphanloai.png"
+                "image": "https://nhantri.top/media/Grade12/thanhphanloai.png"
             },
             {
                 "question": "MB-STHQX-L3-003. Trong quần xã ao nuôi cá, người ta thường thả nhiều loài cá trong ao nhằm:",
@@ -4112,7 +4112,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-CSVCDTPT-L3-001. Trong một vụ án hình sự, một người phụ nữ (F) bị mất cắp một số tiền lớn trong két sắt. Số tiền đã nhanh chóng được cảnh sát tìm thấy và một trong các cọc tiền có vết máu do thủ phạm phá két sắt bị thương để lại. Cảnh sát điều tra phát hiện có một mẫu DNA (S) dính ở cọc tiền. Liên quan tới vụ việc này có 3 người đàn ông (M1, M2, M3), trong đó có 1 người chồng đã li dị của phụ nữ F. Họ có một đứa con chung (B). Hình dưới đây biểu thị kết quả điện di phân tích DNA của mẫu S và những người liên quan. Các khẳng định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/Timtrom.png",
+                image: "https://nhantri.top/media/Grade12/Timtrom.png",
                 statements: [
                     {
                         text: "Băng điện di 1 không có tác dụng trong cuộc điều tra này.", correct: true
@@ -4133,7 +4133,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-CCDTPT-L1-001. Các nhận định sau đây về operon là Đúng hai Sai?",
-                image: "/media/Grade12/operonLac.png",
+                image: "https://nhantri.top/media/Grade12/operonLac.png",
                 statements: [
                     {
                         text: "Điều hòa hoạt động của gene chính là điều hòa lượng sản phẩm của gene được tạo ra.", correct: true
@@ -4149,7 +4149,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L1-002. Trong operon Lac ở E.coli, khi môi trường không có lactose mà enzyme chuyển hóa lactose vẫn được tạo ra với một lượng như khi có lactose. Một học sinh có một số nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/operonLac.png",
+                image: "https://nhantri.top/media/Grade12/operonLac.png",
                 statements: [
                     {
                         text: "Do vùng khởi động (P) trong OPERON bị bất hoạt nên RNA polymerase có thể bám vào để khởi động quá trình phiên mã.", correct: false
@@ -4165,7 +4165,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L1-003. Ở vi khuẩn E.coli, xét một đoạn phân tử DNA có năm gene A, B, D, E, G. Trong đó có bốn gene A, B, D, E thuộc cùng một operon. Mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/operonLac.png",
+                image: "https://nhantri.top/media/Grade12/operonLac.png",
                 statements: [
                     {
                         text: "Nếu gene A tái bản ba lần thì gene D cũng tái bản ba lần.", correct: true
@@ -4181,7 +4181,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L1-004. Khi nghiên cứu về hoạt động operon Lac ở ba chủng vi khuẩn E.coli, người ta thu được kêt quả trong bảng sau. Từ các dữ liệu trong bản, kết luận dưới đây là đúng hay sai?",
-                image: "/media/Grade12/3chungope.png",
+                image: "https://nhantri.top/media/Grade12/3chungope.png",
                 statements: [
                     {
                         text: "Có hai chủng bị lãng phí vật chất và năng lượng bởi phiên mã không kiểm soát.", correct: true
@@ -4197,7 +4197,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L1(aNT1;bTH2;cTH4;dTH5)-005. Một nghiên cứu cơ chế nhân đôi phân tử DNA trên vi khuẩn E. coli (có chu kỳ nhân đôi sau 20 phút) được tiến hành gồm các bước: (1) Nuôi cấy trong môi trường chứa nucleotide chứa N<sup>15</sup> qua nhiều thế hệ tại bình 1. (2) Chuyển 10 tế bào vi khuẩn từ bình 1 sang nuôi cấy trong môi trường chỉ  N<sup>14</sup> tại bình 2. (3) So sánh kết quả thí nghiệm với các mô hình dự đoán nguyên tắc tái bản DNA. (4) DNA được chiết rút từ vi khuẩn tại bình 2 để quay li tâm ở các thời điểm 20 phút và 40 phút.",
-                image: "/media/Grade12/litamdna.png",
+                image: "https://nhantri.top/media/Grade12/litamdna.png",
                 statements: [
                     {
                         text: "Nguyên tố N tham gia cấu trúc nucleotide.", correct: true
@@ -4230,7 +4230,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L2-002. Hình sau mô tả quá trình phiên mã và quá trình hoàn thiện mRNA sơ khai để tạo ra mRNA trưởng thành ở tế bào nhân thực. Nhân định sau đây là đúng hay sai?",
-                image: "/media/Grade12/Catintron.png",
+                image: "https://nhantri.top/media/Grade12/Catintron.png",
                 statements: [
                     {
                         text: "Exon và intron đều được phiên mã từ trình tự gene trên DNA.", correct: true
@@ -4246,7 +4246,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L2-003",
-                image: "/media/Grade12/PMDM.png",
+                image: "https://nhantri.top/media/Grade12/PMDM.png",
                 statements: [
                     {
                         text: "Quá trình (1) và (2) đều xảy ra theo nguyên tắc bổ sung và nguyên tắc bán bảo toàn.", correct: false
@@ -4262,7 +4262,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L2-004. Hình sau biểu diễn quy trình của công nghệ gene ở động vật. Phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/CNtbdv.png",
+                image: "https://nhantri.top/media/Grade12/CNtbdv.png",
                 statements: [
                     {
                         text: "Vector chuyển gene trong quy trình này là plasmid.", correct: true
@@ -4278,7 +4278,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L2-005. Một nhóm nhà khoa học đã tổng hợp các phân tử mRNA nhân tạo rồi đưa mRNA này vào các ống nghiệm có sẵn phức hợp tổng hợp protein. Nguyên liệu trong mỗi ống nghiệm chỉ có một loại amino acid. Kết quả thu được như ở bảng sau. Mỗi phát biểu dưới đây là Đúng hai Sai?",
-                image: "/media/Grade12/PMNmRNA.png",
+                image: "https://nhantri.top/media/Grade12/PMNmRNA.png",
                 statements: [
                     {
                         text: "Trong bảng mã di truyền, triplet 3' - AAA - 5' mã hóa cho amino acid Lys, không phải Phe.", correct: false
@@ -4294,7 +4294,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L1(aNT1;bNT4;cTH2;dTH4)-006. Một nghiên cứu cơ chế nhân đôi phân tử DNA trên vi khuẩn E. coli (có chu kỳ nhân đôi sau 20 phút) được tiến hành gồm các bước: (1) Nuôi cấy trong môi trường chứa nucleotide chứa N<sup>15</sup> qua nhiều thế hệ tại bình 1. (2) Chuyển 10 tế bào vi khuẩn từ bình 1 sang nuôi cấy trong môi trường chỉ  N<sup>14</sup> tại bình 2. (3) So sánh kết quả thí nghiệm với các mô hình dự đoán nguyên tắc tái bản DNA. (4) DNA được chiết rút từ vi khuẩn tại bình 2 để quay li tâm ở các thời điểm 20 phút và 40 phút.",
-                image: "/media/Grade12/litamdna.png",
+                image: "https://nhantri.top/media/Grade12/litamdna.png",
                 statements: [
                     {
                         text: "Nucleotide trong môi trường tham gia cấu tạo phân tử DNA ở các tế bào vi khuẩn sau mỗi lần phân chia.", correct: true
@@ -4310,7 +4310,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L2(aNT1;bNT3;cNT7;dTH2)-007. Theo dõi thí nghiệm như ở trong hình dưới đây với mẫu vật được sử dụng là gan gà.",
-                image: "/media/Grade12/litamdna.png",
+                image: "https://nhantri.top/media/Grade12/litamdna.png",
                 statements: [
                     {
                         text: "Thí nghiệm trên là thí nghiệm tách chiết DNA từ gan gà.", correct: true
@@ -4328,7 +4328,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-CCDTPT-L3-001. Hình dưới đây cho thấy kết quả xác định mức biểu hiện (qua phiên mã và dịch mã) của gene Z mã hóa enzyme β-galactosidase ở chủng <em>E. coli</em> kiểu dại, sinh trưởng trong môi trường tối thiểu ban đầu không có lactose và được bổ sung một lượng nhất định lactose vào phút thứ 3. Các đường đồ thị (1), (2) biểu thị sản phẩm của gene Z (lượng enzyme β-galactosidase hoặc lượng mRNA).",
-                image: "/media/Grade12/dothimRNA.png",
+                image: "https://nhantri.top/media/Grade12/dothimRNA.png",
                 statements: [
                     {
                         text: "Lượng mRNA do gene Z quy định được biểu thị ở đường (2).", correct: false
@@ -4346,7 +4346,7 @@ const questionBank = {
             },
             {
                 question: "DB-CCDTPT-L3-002. Hình ảnh sau đây mô tả về một cơ chế di truyền ở cấp độ phân tử, mỗi nhận định sau đây đúng hay sai?",
-                image: "/media/Grade12/catnoipm.png",
+                image: "https://nhantri.top/media/Grade12/catnoipm.png",
                 statements: [
                     {
                         text: "Hình ảnh trên mô tả cơ chế phiên mã của sinh vật nhân thực.", correct: true
@@ -4539,7 +4539,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-BSMĐ-L1-001. Người ta tiến hành một số phép lai ở chuột và thu được kết quả như bảng dưới đây. Biết tính trạng màu lông chuột do một gene nằm trên NST thường quy định. Theo lí thuyết, mỗi phát biểu về phép lai này là đúng hay sai?",
-                image: "/media/Grade12/daallele.png",
+                image: "https://nhantri.top/media/Grade12/daallele.png",
                 statements: [
                     {
                         text: "Tính trạng màu lông di truyền theo hiện tượng đa gene.", correct: false
@@ -4578,7 +4578,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-BSMĐ-L2-001. Ở một loài thực vật, sự hình thành màu hoa do các cặp gene A, a và B, b phân li độc lập, tác động qua lại cùng quy định theo sơ đồ trong hình. Biết các allele a và b không tổng hợp được enzyme tương ứng. Mỗi phát biểu sau đây về tính trạng này sau là đúng hay sai?",
-                image: "/media/Grade12/tuongtac.png",
+                image: "https://nhantri.top/media/Grade12/tuongtac.png",
                 statements: [
                     {
                         text: "Tính trạng màu hoa tuân theo quy luật tương tác gene.", correct: true
@@ -4594,7 +4594,7 @@ const questionBank = {
             },
             {
                 question: "DB-BSMĐ-L2-002. Ở một loài thực vật, để tạo thành màu sắc hoa có sự tương tác của hai gen không allele A và B theo sơ đồ. Khi tế bào đồng thời có cả sắc tố đỏ và sắc tố xanh thì cho hoa màu tím. Cho cây có kiểu gene AaBb tự thụ phấn được F1.",
-                image: "/media/Grade12/sodott.png",
+                image: "https://nhantri.top/media/Grade12/sodott.png",
                 statements: [
                     {
                         text: "Các cây F1 giao phấn tự do được F2. Trong số các cây hoa đỏ ở F2, cây thuần chủng chiếm tỉ lệ 1/3.", correct: true
@@ -4764,7 +4764,7 @@ const questionBank = {
             },
             {
                 question: "DB-ĐBG-L2-002. Bảng cho biết trình tự nucleotide trên một đoạn ở vùng mã hóa của mạch gốc quy định protein ở sinh vật nhân sơ và các allele được tạo ra từ gene này do đột biến điểm. Mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/bDBG.png",
+                image: "https://nhantri.top/media/Grade12/bDBG.png",
                 statements: [
                     {
                         text: "Chuỗi polypeptide do allele đột biến 1 mã hóa không thay đổi so với chuỗi polypeptide do gene ban đầu mã hóa.", correct: true
@@ -4782,7 +4782,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-ĐBG-L3-001. Trình tự nucleotide trên một đoạn ở vùng mã hóa của mạch gốc của gene quy định protein ở sinh vật nhân sơ và các allele được tạo ra từ các gene này do đột biến điểm.</br>Gene ban đầu: 3’ - … TAC TTC AAA CCG … - 5’.</br>Allele đột biến 1: 3’ - … TAC TTC AAA CCA … - 5’.</br>Allele đột biến 2: 3’ - … TAC ATC AAA CCG … - 5’.</br> Allele đột biến 3: 3’ - … TAC TTC AAA TCG … - 5’.</br>Phân tích các dữ liệu trên, mỗi kết luận dưới đây là đúng hay sai?",
-                image: "/media/Grade12/5108.png",
+                image: "https://nhantri.top/media/Grade12/5108.png",
                 statements: [
                     {
                         text: "Chuỗi polypeptide do allele đột biến 1 mã hoá không thay đổi so với chuỗi polypeptide do gene ban đầu mã hoá.", correct: true
@@ -4816,7 +4816,7 @@ const questionBank = {
             },
             {
                 question: "DB-ĐBG-L3-003. Có ba loại đột biến điểm (M1, M2, M3) khác nhau của cùng một gene (đối chứng). Khi điện di trên gel để phân tích RNA, protein của các gene đột biến M1, M2, M3 và gene trước đột biến (kí hiệu ĐC) thu được kết quả như hình sau. Phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/DBdiem.png",
+                image: "https://nhantri.top/media/Grade12/DBdiem.png",
                 statements: [
                     {
                         text: "Đột biến M1 là đột biến tạo mã kết thúc sớm.", correct: true
@@ -4832,7 +4832,7 @@ const questionBank = {
             },
             {
                 question: "DB-ĐBG-L3-004. Vùng mã hóa của gene cấu trúc ở vi khuẩn, xét một đoạn mang thông tin quy định 5 amino acid của chuỗi polypeptide có trình tự như sau. Theo lí thuyết, phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/MachDB.png",
+                image: "https://nhantri.top/media/Grade12/MachDB.png",
                 statements: [
                     {
                         text: "Mạch 2 là mạch làm khuôn để thực hiện quá trình biểu hiện của gene.", correct: false
@@ -4986,7 +4986,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-DTHN&UD-L3-001. Một cặp vợ chồng đến tư vấn di truyền sau khi người vợ bị sảy thai liên tiếp và chưa sinh được người con nào. Khi phân tích bộ NST của cặp vợ chồng, người chồng bị chuyển đoạn tương hỗ giữa NST số 3 và NST số 21, còn người vợ có bộ NST bình thường. Hình dưới đây minh hoạ cho 6 khả năng của bộ NST trong tinh trùng người chồng, trong đó, màu đen là NST số 3, màu trắng là NST số 21. Theo lí thuyết, mỗi phát biểu sau đây là đúng hay sai?",
-                image: "/media/Grade12/chuyendoan.png",
+                image: "https://nhantri.top/media/Grade12/chuyendoan.png",
                 statements: [
                     {
                         text: "Cặp vợ chồng này có thể sinh con bình thường không mắc bệnh Down.", correct: true
@@ -5028,7 +5028,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-DTQT-L1-001. Nghiên cứu thành phần kiểu gene của một quần thể qua các thế hệ thu được kết qủa trong bảng. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/bangkieugene.png",
+                image: "https://nhantri.top/media/Grade12/bangkieugene.png",
                 statements: [
                     {
                         text: "Quần thể này có thể đang chịu tác động của các yếu tố ngẫu nhiên.", correct: true
@@ -5048,7 +5048,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-DTQT-L2-001. Nghiên cứu sự thay đổi thành phần kiểu gene ở một quần thể giao phối qua 4 thế hệ liên tiếp thu được kết quả như trong bảng sau:",
-                image: "/media/Grade12/dtqtbang.png",
+                image: "https://nhantri.top/media/Grade12/dtqtbang.png",
                 statements: [
                     {
                         text: "Đột biến là nhân tố gây ra sự thay đổi cấu trúc di truyền của quần thể ở F3.", correct: false
@@ -5361,7 +5361,7 @@ const questionBank = {
         level1: [
             {
                 question: "DP-STHQT-L1-001. Tháp tuổi của 3 quần thể sinh vật với trạng thái phát triển khác nhau như hình dưới đây. Mỗi phát biểu sau là đúng hay sai?",
-                image: "/media/Grade12/ndnhomtuoi.png",
+                image: "https://nhantri.top/media/Grade12/ndnhomtuoi.png",
                 statements: [
                     {
                         text: "Quần thể 1 đang phát triển.", correct: true
@@ -5417,7 +5417,7 @@ const questionBank = {
         level2: [
             {
                 question: "DP-STHQT-L2-001. Khi thống kê tỉ lệ cá đánh bắt trong các mẻ lưới ở 3 vùng khác nhau, người ta thu được kết quả như sau:",
-                image: "/media/Grade12/bangnhomtuoi.png",
+                image: "https://nhantri.top/media/Grade12/bangnhomtuoi.png",
                 statements: [
                     {
                         text: "Vùng A  tuổi trước sinh sản quá lớn chứng tỏ khai thác cá ở vùng này quá mức.", correct: true
@@ -5435,7 +5435,7 @@ const questionBank = {
             },
             {
                 question: "DP-STHQT-L2-002. Khi thống kê tỉ lệ cá đánh bắt trong các mẻ lưới ở 3 vùng khác nhau, người ta thu được kết quả như sau:",
-                image: "/media/Grade12/carodong.png",
+                image: "https://nhantri.top/media/Grade12/carodong.png",
                 statements: [
                     {
                         text: "Từ đồ thị cho thấy quần thể cá rô tăng trưởng theo tiềm năng sinh học trong điều kiện môi trường bị giới hạn.", correct: false
@@ -5455,7 +5455,7 @@ const questionBank = {
         level3: [
             {
                 question: "DP-STHQT-L3-001. Giả sử 4 quần thể của một loài thú được kí hiệu là A, B, C, D có diện tích khu phân bố và mật độ cá thể như ở bảng dưới đây.Cho biết diện tích khu phân bố của 4 quần thể đều không thay đổi, không có xuất cư và nhập cư. Các phát biểu sau đúng hay sai?",
-                image: "/media/Grade12/bangktqt.png",
+                image: "https://nhantri.top/media/Grade12/bangktqt.png",
                 statements: [
                     {
                         text: "Quần thể A có kích thước nhỏ nhất.", correct: true
@@ -5542,7 +5542,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-STHQX-L2(aNT1-bNT4-cNT6-dVD1)-001. Loài nai sừng tấm sử dụng nguồn thức ăn chủ yếu là cây bụi như liễu và bạch dương, từ đất liền Ontario (cách đó 25 km) đã di chuyển đến Đảo Royale trên Hồ Superior vào khoảng năm 1900 bằng cách di chuyển qua hồ khi đóng băng. Chó sói (Wolves) sử dụng nai sừng tấm làm nguồn thức ăn chủ yếu, đã đến hòn đảo vào khoảng năm 1950 bằng cách di chuyển qua hồ đóng băng. Băng tan kể những năm 1950 và cả hai quần thể dường như đã bị cô lập khỏi quá trình nhập cư và di cư kể từ đó. Quần thể nai sừng tấm trên đảo đã trải qua hai đợt tăng và giảm lớn trong 50 năm qua. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/naisungtamm.png",
+                image: "https://nhantri.top/media/Grade12/naisungtamm.png",
                 statements: [
                     {
                         text: "Mối quan hệ sinh thái giữa nai sừng tấm và chó sói là cạnh tranh khác loài.", correct: false
@@ -5560,7 +5560,7 @@ const questionBank = {
             },
             {
                 question: "DB-STHQX-L2(aNT1-bTH2-cTH2-dTH3)-002. Loài nai sừng tấm sử dụng nguồn thức ăn chủ yếu là cây bụi như liễu và bạch dương, từ đất liền Ontario (cách đó 25 km) đã di chuyển đến Đảo Royale trên Hồ Superior vào khoảng năm 1900 bằng cách di chuyển qua hồ khi đóng băng. Chó sói (Wolves) sử dụng nai sừng tấm làm nguồn thức ăn chủ yếu, đã đến hòn đảo vào khoảng năm 1950 bằng cách di chuyển qua hồ đóng băng. Băng tan kể những năm 1950 và cả hai quần thể dường như đã bị cô lập khỏi quá trình nhập cư và di cư kể từ đó. Quần thể nai sừng tấm trên đảo đã trải qua hai đợt tăng và giảm lớn trong 50 năm qua. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/naisungtamm.png",
+                image: "https://nhantri.top/media/Grade12/naisungtamm.png",
                 statements: [
                     {
                         text: "Mối quan hệ sinh thái giữa nai sừng tấm và cây liễu là sinh vật này ăn sinh vật khác.", correct: true
@@ -5578,7 +5578,7 @@ const questionBank = {
             },
             {
                 question: "DB-STHQX-L2-003. Hình bên mô tả đường cong tăng trưởng của hai loài trùng cỏ (loài 1: <em>Paramecium caudatum và loài 2:Paramecium aurelia</em>) cùng ăn một loại thức ăn trong những điều kiện nuôi chung và nuôi riêng. Biết rằng các bể nuôi có điều kiện môi trường như nhau. Mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/hailoaitrungco.png",
+                image: "https://nhantri.top/media/Grade12/hailoaitrungco.png",
                 statements: [
                     {
                         text: "Khi nuôi riêng, hai loài trên đều tăng trưởng theo tiềm năng sinh học.", correct: false
@@ -5598,7 +5598,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-STHQX-L3-001. Phương pháp mô phỏng mô hình sinh thái về sự biến đổi kích thước quần thể của ba loài: chim, chuột và mèo rừng được thực hiện trên một hòn đảo với số lượng cá thể ban đầu của mỗi loài lần lượt là 100 000, 100 và 10. Biến động số lượng cá thể mỗi loài sau một thời gian được biểu thị ở hình dưới đây. Biết rằng, chim là thức ăn của chuột, cả chim và chuột là thức ăn của mèo rừng. Khi quần xã trong thí nghiệm 1 đạt trạng thái ổn định, người ta tiến hành loại bỏ hoàn toàn các cá thể mèo rừng và thu được số liệu về sự biến động số lượng cá thể các loài trong quần xã như biểu thị trong thí nghiệm 2. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/BiendongSLuong.png",
+                image: "https://nhantri.top/media/Grade12/BiendongSLuong.png",
                 statements: [
                     {
                         text: "Mối quan hệ sinh thái giữa loài chim và loài chuột là cạnh tranh khác loài.", correct: false
@@ -5616,7 +5616,7 @@ const questionBank = {
             },
             {
                 question: "DB-STHQX-L3-002. Một công trình nghiên cứu đã khảo sát sự biến động số lượng cá thể của hai quần thể thuộc hai loài động vật ăn cỏ (loài A và loài B) trong cùng một khu vực sinh sống từ năm 1992 đến năm 2020. Hình sau đây mô tả sự thay đổi số lượng cá thể của hai quần thể A, B trước và sau khi loài động vật săn mồi C xuất hiện trong môi trường sống của chúng. Biết rằng ngoài sự xuất hiện của loài C, điều kiện môi trường sống trong toàn bộ thời gian nghiên cứu không có biến động lớn. Mỗi nhận định dưới đây là đúng hay sai?",
-                image: "/media/Grade12/thaydoisluong.png",
+                image: "https://nhantri.top/media/Grade12/thaydoisluong.png",
                 statements: [
                     {
                         text: "Sự giảm kích thước quần thể A là do sự săn mồi của loài C cũng như sự gia tăng kích thước của quần thể B đã tiêu thụ một lượng lớn cỏ.", correct: true
@@ -5638,7 +5638,7 @@ const questionBank = {
         level1: [
             {
                 question: "DB-HST,SQ&BVMT-L1-001. Để nghiên cứu ảnh hưởng của chặt phá rừng đến sự thất thoát lượng khoáng trong đất, người ta chọn hai lô trong một khu rừng với điều kiện ban đầu như nhau. Hãy cho biết, mỗi phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/hstpharungm.png",
+                image: "https://nhantri.top/media/Grade12/hstpharungm.png",
                 statements: [
                     {
                         text: "Ở lô Y, giai đoạn I có sinh khối thực vật lớn nhất và lượng khoáng thất thoát hằng năm là nhỏ nhất.", correct: true
@@ -5756,7 +5756,7 @@ const questionBank = {
         level2: [
             {
                 question: "DB-HST,SQ&BVMT-L2-001. Tại một đồng cỏ, mối quan hệ về dinh dưỡng giữa các loài được mô tả qua hình sau. Các phát biểu dưới đây là đúng hay sai?",
-                image: "/media/Grade12/luoitan.png",
+                image: "https://nhantri.top/media/Grade12/luoitan.png",
                 statements: [
                     {
                         text: "Đồng cỏ này có tổng cộng 5 chuỗi thức ăn.", correct: true
@@ -5884,7 +5884,7 @@ const questionBank = {
         level3: [
             {
                 question: "DB-HST,SQ&BVMT-L3-001. Cho sơ đồ sau về một chu trình sinh địa hóa trong tự nhiên, hãy xác định các mệnh đề hãy xác định đúng - sai?",
-                image: "/media/Grade12/chutrinhnitrogen.png",
+                image: "https://nhantri.top/media/Grade12/chutrinhnitrogen.png",
                 statements: [
                     {
                         text: "Sơ đồ trên minh họa cho chu trình Nitrogen trong sinh quyển.", correct: true
@@ -6101,7 +6101,7 @@ const questionBank = {
             },
             {
                 question: "TB-DTPT-L2-016. Có bao nhiêu cấu trúc trong hình mô tả phân tử mRNA?",
-                image: "/media/Grade12/rnaphanloai.png",
+                image: "https://nhantri.top/media/Grade12/rnaphanloai.png",
                 answer: "2"
             },
             {
@@ -6129,7 +6129,7 @@ const questionBank = {
             },
             {
                 question: "TB-DTPT-L3-005. Cho tỉ lệ % các loại nucleotide của các phân tử nucleic acid ở 6 loài ở trong bảng. Bao nhiêu nucleic acid thuộc những loài có DNA mạch kép?",
-                image: "/media/Grade12/dnakep.png",
+                image: "https://nhantri.top/media/Grade12/dnakep.png",
                 answer: "3"
             },
             // Thêm các câu hỏi SA level 3...
@@ -6304,7 +6304,7 @@ const questionBank = {
             },
             {
                 question: "TB-DTPT-L3-005. Theo lí thuyết, trong 4 allele M1, M2, M3, M4 có bao nhiêu allele mã hóa chuỗi polypeptide có thành phần amino acid bị thay đổi so với chuỗi polypeptide do allele M mã hóa?",
-                image: "/media/Grade12/bangdm.png",
+                image: "https://nhantri.top/media/Grade12/bangdm.png",
                 answer: "3"
             },
             {
@@ -6404,7 +6404,7 @@ const questionBank = {
         level1: [
             {
                 question: "TB-DTMG-L1-001. Sơ đồ dưới đây minh hoạ một phần bản đồ di truyền NST X của ruồi giấm. Dựa vào bản đồ di truyền, hãy xác định khoảng cách giữa hai gene quy định thân vàng và gene quy định lông xám là bao nhiêu cM?",
-                image: "/media/Grade12/lienketkt.png",
+                image: "https://nhantri.top/media/Grade12/lienketkt.png",
                 answer: "21"
             },
             {
@@ -6731,7 +6731,7 @@ const questionBank = {
         level2: [
             {
                 question: "TB-ĐBG-L1-001. Một đột biến điểm ở một gene làm thay đổi thành phần của chuỗi polypeptide được mô tả trong Hình 1. Sử dụng  bảng mã di truyền trong Hình 2 và cho biết có tối đa bao nhiêu trường hợp sau đây để tạo ra loại đột biến này?<br/>1. Thay thế A - T thành G - C.<br/>2. Thay thế G - C thành A - T.<br/>3. Thay thế A - T thành T - A.<br/>4. Thay thế G - C thành C - G.<br/>5. Mất một cặp A - T.<br/>6. Mất một cặp G - C.<br/>",
-                image: "/media/Grade12/taodbg.png",
+                image: "https://nhantri.top/media/Grade12/taodbg.png",
                 answer: "1"
             },
 
@@ -6765,12 +6765,12 @@ const questionBank = {
         level2: [
             {
                 question: "TB-ĐBNST-L2-001. Hình ảnh cho thấy các loại giao tử chứa NST 14, 21 và 14/21 có thể được tạo thành từ các tế bào sinh trứng ở một người phụ nữ bị đột biến chuyển đoạn Robertson (một phần của NST 21 gắn vào NST 14). Loại giao tử nào trong hình kết hợp với giao tử đực bình thường tạo thành hợp tử có các cặp NST 14 và 21 bình thường?",
-                image: "/media/Grade12/Robertson.png",
+                image: "https://nhantri.top/media/Grade12/Robertson.png",
                 answer: "1"
             },
             {
                 question: "TB-ĐBNST-L2-002. Hình ảnh mô tả một giai đoạn của hai tế bào cùng loài đang trong quá trình giảm phân. Giả sử tế bào sinh trứng có một cặp NST không phân li trong giảm phân I, giảm phân II diễn ra bình thường; tế bào sinh tinh giảm phân bình thường. Hợp tử được tạo thành do sự kết hợp giữa trứng (n + 1) và tinh trùng (n) sẽ có bao nhiêu NST?",
-                image: "/media/Grade12/bonnst.png",
+                image: "https://nhantri.top/media/Grade12/bonnst.png",
                 answer: "5"
             },
             // Thêm các câu hỏi SA Morgan level 2...
@@ -6988,7 +6988,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-DTHN&UDTH-L3-001. Các tế bào lai người - chuột được tạo ra bằng cách dung hợp các tế bào nuôi cấy của người và chuột. Khi tế bào lai phân chia, bộ NST của chuột thường được duy trì nguyên vẹn ở tế bào con, còn các NST của người bị mất đi ngẫu nhiên sau một số lần phân bào. Trong một nghiên cứu, nhằm xác định vị trí gene trên NST, ba dòng tế bào lai người - chuột là X, Y, Z được phân tích về NST và sự biểu hiện một số protein của người, kết quả được biểu hiện ở trong bảng. Biết rằng mỗi gene quy định một protein tương ứng M, N, P, Q, R. Hãy điền tên hai NST không mang gene nào trong số các gene đang xét (viết liền số NST theo thứ tự từ bé đến lớn).",
-                image: "/media/Grade12/matmnpq.png",
+                image: "https://nhantri.top/media/Grade12/matmnpq.png",
                 answer: "914"
             },
             // Thêm các câu hỏi SA Di truyền học người và ứng dụng DTH level 3...
@@ -7094,7 +7094,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "4,47"
             },
             // Thêm các câu hỏi SA Morgan level 3...
@@ -7121,7 +7121,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-HTTHTHHĐ-L3-001. Sơ đồ sau đây cho thấy quá trình hình thành hai loài sóc Kaibab <em>(Sciurus aberti kaibabensis)</em> và sóc Aberrt <em>(Sciurus abertiaberti)</em> từ loài sóc cây do sự hình thành hẻm núi Grand Canyon. Có bao nhiêu phát biểu dưới đây là đúng? <br/> (1) Quá trình trên là một ví dụ của quá trình hình thành loài khác khu. <br/>(2) Quá trình đột biến chắc chắn không xảy ra ở hai quần thể sóc cây ở bờ Bắc và bờ Nam. <br/> (3) Tác động của các yếu tố khí hậu và thảm thực vật góp phần thúc đẩy quá trình hình thành loài mới. <br/>(4) Sự hình thành hẻm núi Grand Canyon là nguyên nhân trực tiếp gây ra những biến đổi tương ứng trên cơ thể sinh vật, từ đó giúp hình thành loài mới.",
-                image: "/media/Grade12/qtsoccay.png",
+                image: "https://nhantri.top/media/Grade12/qtsoccay.png",
                 answer: "2"
             },
             // Thêm các câu hỏi SA Học thuyết tiến hóa tổng hợp hiện đại level 3...
@@ -7146,7 +7146,7 @@ const questionBank = {
         level3: [
             {
                 question: "...",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "4,47"
             },
             // Thêm các câu hỏi SA Sự phát sinh chủng loại level 3...
@@ -7187,12 +7187,12 @@ const questionBank = {
         level2: [
             {
                 question: "TB-STHQT-L2-001. Giả sử 4 quần thể của cùng một loài động vật có diện tích khu phân bố và mật độ cá thể được thống kê trong bảng. Cho biết diện tích khu phân bố của 4 quần thể đều không thay đổi, không có hiện tượng nhập cư và xuất cư. Hãy sắp xếp 4 quần thể theo thứ tự kích thước của quần thể từ nhỏ đến lớn.",
-                image: "/media/Grade12/bangktqtss.png",
+                image: "https://nhantri.top/media/Grade12/bangktqtss.png",
                 answer: "1324"
             },
             {
                 question: "TB-STHQT-L2-002. Tỉ lệ sinh sản và tỉ lệ tử vong của một quần thể chuột trong một thí nghiệm qua các năm được thể hiện trong bảng. Biết rằng đầu năm 1970, quần thể có 5000 cá thể, quần thể không có xuất cư và nhập cư. Theo lí thuyết, kết thúc năm 2020, quần thể có bao nhiêu cá thể?",
-                image: "/media/Grade12/thaydoislct.png",
+                image: "https://nhantri.top/media/Grade12/thaydoislct.png",
                 answer: "6330"
             },
             // Thêm các câu hỏi Sinh thái học quần thể level 2...
@@ -7200,7 +7200,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-STHQT-L3-001. Để duy trì và phát triển quần thể loài A cần có số lượng cá thể ít nhất là 25 cá thể/quần thể. Biết không có hiện tượng di – nhập cư. Người ta thống kê 6 quần thể của loài ở các môi trường ổn định khác nhau, thu được kết quả như bảng dưới đây. Có bao nhiêu quần thể có nguy cơ dẫn đến diệt vong?",
-                image: "/media/Grade12/bangmdct.png",
+                image: "https://nhantri.top/media/Grade12/bangmdct.png",
                 answer: "2"
             },
             // Thêm các câu hỏi SA Sinh thái học quần thể level 3...
@@ -7210,7 +7210,7 @@ const questionBank = {
         level1: [
             {
                 question: "TB-STHQX-L1-001. Trong một nghiên cứu về ảnh hưởng của loài Sa giông <em>Notophthalmus viridescens</em> đối với nguồn thức ăn là nòng nọc các loài ếch nhái <em>Bufo americanus</em>, <em>Hyla chrysoscelis</em>, <em>Rana sphenocephala</em> và <em>Scaphiopus holbrooki</em> trong một hố nước sau 100 ngày sinh trưởng được thể hiện trong hình bên, trong đó (I) không có sự hiện diện loài Sa giông và (II) có sự xuất hiện của 5 cá thể loài Sa giông. Tính độ phong phú của cá thể nòng nọc loài ưu thế trong quần xã sinh vật I (tính làm tròn đến 2 chữ số thập phân sau dấu phẩy)?",
-                image: "/media/Grade12/consagiong.png",
+                image: "https://nhantri.top/media/Grade12/consagiong.png",
                 answer: "0,56"
             },
             // Thêm các câu hỏi SA Sinh thái học quần xã level 1 khác...
@@ -7226,7 +7226,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-STHQX-L3-001. Hình dưới đây cho thấy số lượng cá thể của các loài trong một quần xã thực vật ở đồng cỏ, trong đó chỉ có một loài ưu thế. Độ phong phú của loài ưu thế gấp bao nhiêu lần giá trị trung bình của độ phong phú của tất cả các loài trong quần xã (tính làm tròn đến 2 chữ số thập phân sau dấu phẩy)?",
-                image: "/media/Grade12/dophongphu.png",
+                image: "https://nhantri.top/media/Grade12/dophongphu.png",
                 answer: "4,47"
             },
             {
@@ -7371,7 +7371,7 @@ const questionBank = {
         level3: [
             {
                 question: "TB-HST,SQ&BVMT-L3-001. Hình dưới đây là lưới thức ăn ở một hệ sinh thái trên cạn. Biết rằng, sản lượng của thực vật là 210 kcal/m2/năm. Nếu hiệu suất sinh thái giữa phần sản lượng của sinh vật tiêu thụ với sản lượng của mỗi loài thức ăn tương ứng đều là 10%, thì sản lượng của cáo là bao nhiêu? (tính làm tròn đến 2 chữ số thập phân sau dấu phẩy)?",
-                image: "/media/Grade12/tinhsanluongg.png",
+                image: "https://nhantri.top/media/Grade12/tinhsanluongg.png",
                 answer: "2,31"
             },
             {

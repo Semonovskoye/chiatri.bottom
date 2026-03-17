@@ -86,3 +86,28 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+pre {
+  position: relative;
+  background: rgba(255, 255, 255, 0.50);
+  padding: 10px;
+  font-size: 15px;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: black;
+}
+
+.copy-button {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: gray;
+  border-radius: 0.5em;
+  padding: 2px 7px;
+}
+
+.copy-button:hover {
+  color: #000;
+}

@@ -21,15 +21,47 @@
     padding: 8px 12px;
     font-size: 14px;
   }
+
+  body {
+    background-attachment: scroll;
+  }
+
+  #vanta-bg {
+    height: 100dvh;
+  }
 }
 
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
 
 body {
-    background-image: url("./images/bg1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("./images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
+#vanta-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100dvh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.page-content {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
 
 .header {
     font-family: Comfortaa-Bold;
@@ -164,6 +196,10 @@ footer {
   transform: scale(0.95);
 }
 
+.a {
+  font-family: Comfortaa-Bold;
+}
+
 .a:link {
   color: black;
   background-color: transparent;
@@ -190,4 +226,203 @@ footer {
   background-color: transparent;
   text-decoration: underline;
   transition: 0.2s ease;
+}
+
+.multi-code-box {
+  padding-top: 56px;
+}
+
+.code-tabs {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+  gap: 8px;
+  max-width: calc(100% - 95px);
+  overflow-x: auto;
+}
+
+.code-tab {
+  background: rgba(0, 187, 255, 0.65);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.code-tab:hover {
+  background: rgb(0, 162, 220);
+}
+
+.code-tab:active {
+  transform: scale(0.96);
+}
+
+.code-tab.active {
+  background: rgb(0, 130, 177);
+}
+
+.code-panel {
+  display: none;
+}
+
+.code-panel.active {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .multi-code-box {
+    padding-top: 92px;
+  }
+
+  .code-tabs {
+    top: 44px;
+    left: 6px;
+    right: 6px;
+    max-width: none;
+  }
+}
+
+.code-box {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.code-box pre {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+.multi-code-box {
+  padding-top: 58px;
+}
+
+.code-tabs {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 90px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.code-tab {
+  background: rgba(0, 187, 255, 0.65);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.code-tab:hover {
+  background: rgb(0, 162, 220);
+}
+
+.code-tab:active {
+  transform: scale(0.96);
+}
+
+.code-tab.active {
+  background: rgb(0, 130, 177);
+}
+
+.code-panel {
+  display: none;
+}
+
+.code-panel.active {
+  display: block;
+}
+
+.code-box.collapsible > pre,
+.code-box.collapsible .code-view > pre {
+  max-height: 260px;
+  overflow: auto;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+}
+
+.code-box.collapsible.expanded > pre,
+.code-box.collapsible .code-view.expanded > pre {
+  max-height: none;
+}
+
+.display-more-btn {
+  display: block;
+  margin: 10px auto 0;
+  background: rgba(0, 187, 255, 1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.display-more-btn:hover {
+  background: rgb(0, 162, 220);
+}
+
+.display-more-btn:active {
+  background: rgb(0, 130, 177);
+  transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+  .code-box.collapsible > pre,
+  .code-box.collapsible .code-view > pre {
+    max-height: 220px;
+    font-size: 13px;
+  }
+
+  .display-more-btn {
+    width: 100%;
+    max-width: 220px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+    .code-box {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .multi-code-box {
+    padding-top: 96px;
+  }
+
+  .copy-btn {
+    top: 8px;
+    right: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .code-tabs {
+    top: 48px;
+    left: 8px;
+    right: 8px;
+    gap: 6px;
+  }
+
+  .code-tab {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .code-box pre {
+    font-size: 13px;
+  }
 }

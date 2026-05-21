@@ -327,8 +327,22 @@ adjustDifficulty = function(type, isCorrect) {
 
       <div class="code-box multi-code-box collapsible">
         <button class="copy-btn" onclick="copyCode(this)">Copy</button>
-        <pre class="code-panel active">
-          <code data-code-file="./get100pdf_nowork.txt">Loading...</code>
+        <div class="code-tabs">
+          <button class="code-tab active" type="button" onclick="showCodeTab(this, 'unencrypted_new')">
+            Bài không bị mã hóa
+          </button>
+
+          <button class="code-tab" type="button" onclick="showCodeTab(this, 'encrypted_new')">
+            Bài bị mã hoá
+          </button>
+        </div>
+
+        <pre class="code-panel active" data-code-panel="unencrypted_new">
+          <code data-code-file="./khong-ma-hoa.txt">Loading...</code>
+        </pre>
+
+        <pre class="code-panel" data-code-panel="encrypted_new">
+          <code data-code-file="./co-ma-hoa.txt">Loading...</code>
         </pre>
       </div>
 
@@ -393,6 +407,10 @@ nothing here yet... (cứ thử dùng mấy lệnh của G10 và G11 đi.)
           <button class="code-tab" type="button" onclick="showCodeTab(this, 'encrypted')">
             Bài bị mã hoá
           </button>
+
+          <button class="code-tab" type="button" onclick="showCodeTab(this, 'encrypted_rev1')">
+            Bài bị mã hoá (REV 1)
+          </button>
         </div>
 
         <pre class="code-panel active" data-code-panel="unencrypted">
@@ -401,6 +419,10 @@ nothing here yet... (cứ thử dùng mấy lệnh của G10 và G11 đi.)
 
         <pre class="code-panel" data-code-panel="encrypted">
           <code data-code-file="./encrypted.txt">Loading...</code>
+        </pre>
+
+        <pre class="code-panel" data-code-panel="encrypted_rev1">
+          <code data-code-file="./get100pdf_nowork.txt">Loading...</code>
         </pre>
       </div>
 

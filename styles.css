@@ -534,7 +534,6 @@ footer {
   text-decoration: none;
   color: black;
   background-color: rgba(255, 255, 255, 0.35);
-  border: 1px solid rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -646,3 +645,310 @@ footer {
     font-size: 14px;
   }
 }
+
+/* =========================
+   THEME SETTINGS
+========================= */
+
+:root {
+  --page-text: #000000;
+  --page-border: #000000;
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-bg-strong: rgba(255, 255, 255, 0.35);
+  --button-bg: rgba(0, 187, 255, 1);
+  --button-hover: rgb(0, 162, 220);
+  --button-active: rgb(0, 130, 177);
+  --settings-bg: rgba(255, 255, 255, 0.88);
+  --settings-shadow: rgba(0, 0, 0, 0.18);
+}
+
+html[data-theme="dark"] {
+  --page-text: #f8fafc;
+  --page-border: rgba(255, 255, 255, 0.75);
+  --glass-bg: rgba(15, 23, 42, 0.58);
+  --glass-bg-strong: rgba(15, 23, 42, 0.75);
+  --settings-bg: rgba(15, 23, 42, 0.94);
+  --settings-shadow: rgba(0, 0, 0, 0.42);
+}
+
+html[data-theme="dark"] body {
+  color: var(--page-text);
+}
+
+html[data-theme="dark"] #vanta-bg {
+  filter: brightness(0.55) saturate(0.9);
+}
+
+html[data-theme="light"] #vanta-bg {
+  filter: none;
+}
+
+/* Override your existing section-like boxes */
+.header,
+section,
+.buttons,
+footer,
+.contributors-box,
+.tutorial-card,
+.code-box {
+  color: var(--page-text);
+  border-color: var(--page-border);
+  background-color: var(--glass-bg);
+}
+
+h3 {
+  color: var(--page-text);
+  border-color: var(--page-border);
+}
+
+.a:link,
+.a:visited,
+.text-link:link,
+.text-link:visited,
+.contributor {
+  color: var(--page-text);
+}
+
+.a:hover,
+.text-link:hover,
+.contributor:hover {
+  color: white;
+}
+
+/* Code text */
+.code-box,
+.code-box pre,
+.code-box code {
+  color: var(--page-text);
+}
+
+/* Buttons continue to match your current blue style */
+.button,
+.copy-btn,
+.code-tab,
+.grade-tab,
+.display-more-btn,
+.tutorial-toggle,
+.settings-toggle {
+  background: var(--button-bg);
+}
+
+.button:hover,
+.copy-btn:hover,
+.code-tab:hover,
+.grade-tab:hover,
+.display-more-btn:hover,
+.tutorial-toggle:hover,
+.settings-toggle:hover {
+  background: var(--button-hover);
+}
+
+.button:active,
+.copy-btn:active,
+.code-tab:active,
+.grade-tab:active,
+.display-more-btn:active,
+.tutorial-toggle:active,
+.settings-toggle:active {
+  background: var(--button-active);
+}
+
+/* Settings button */
+.settings-widget {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  z-index: 9999;
+  font-family: Comfortaa-Regular;
+}
+
+.settings-toggle {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--button-bg);
+  color: white;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  line-height: 1;
+  appearance: none;
+  -webkit-appearance: none;
+
+  box-shadow: 0 4px 14px var(--settings-shadow);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.settings-icon {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+.settings-toggle:active {
+  transform: scale(0.94);
+}
+
+.settings-panel {
+  position: absolute;
+  top: 54px;
+  right: 0;
+  width: 190px;
+  padding: 12px;
+  border: 1px solid var(--page-border);
+  border-radius: 16px;
+  background: var(--settings-bg);
+  color: var(--page-text);
+  box-shadow: 0 8px 24px var(--settings-shadow);
+  backdrop-filter: blur(12px);
+}
+
+.settings-panel h3 {
+  margin: 0 0 10px;
+  padding: 0;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+.theme-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 6px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.theme-option:hover {
+  background: var(--glass-bg-strong);
+}
+
+.theme-option input {
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .settings-widget {
+    top: 10px;
+    right: 10px;
+  }
+
+  .settings-toggle {
+    width: 42px;
+    height: 42px;
+    font-size: 19px;
+  }
+
+  .settings-panel {
+    width: 170px;
+    right: 0;
+  }
+}
+
+/* Contributors box that follows Bright / Dark / System theme */
+
+.contributors-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.contributor-card {
+  background: var(--glass-bg);
+  padding: 12px;
+  color: var(--page-text);
+  text-decoration: none;
+
+  width: 140px;
+  min-height: 130px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.1s ease,
+    box-shadow 0.2s ease;
+}
+
+.contributor-card:hover {
+  background: var(--glass-bg-strong);
+  color: var(--page-text);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px var(--settings-shadow);
+}
+
+.contributor-card:active {
+  transform: scale(0.96);
+}
+
+.contributor-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--page-border);
+  background: var(--glass-bg-strong);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.contributor-card span {
+  font-family: Comfortaa-Regular;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+/* Optional: make cards glow slightly in dark mode */
+html[data-theme="dark"] .contributor-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .contributors-list {
+    gap: 10px;
+  }
+
+  .contributor-card {
+    width: 42%;
+    min-width: 120px;
+    padding: 10px;
+  }
+
+  .contributor-card img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .contributor-card span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px) {
+  .contributor-card {
+    width: 100%;
+  }
+}
+
+/* yes, this thing is mosly coded by AI, because it codes better than I do. Thanks ChatGPT, you are a friend for life. */

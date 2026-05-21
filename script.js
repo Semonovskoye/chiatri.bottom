@@ -191,3 +191,78 @@ document.addEventListener("DOMContentLoaded", () => {
     showGrade(savedGrade, button);
   }
 });
+
+const THEME_STORAGE_KEY = "chiangu-theme-mode";
+
+function getSystemTheme() {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+}
+
+function applyTheme(mode) {
+  const selectedMode = mode || "system";
+  const resolvedTheme = selectedMode === "system" ? getSystemTheme() : selectedMode;
+
+  document.documentElement.dataset.theme = resolvedTheme;
+  document.documentElement.dataset.themeMode = selectedMode;
+
+  localStorage.setItem(THEME_STORAGE_KEY, selectedMode);
+
+  document.querySelectorAll('input[name="theme-mode"]').forEach(input => {
+    input.checked = input.value === selectedMode;
+  });
+
+  setTimeout(() => {
+    window.dispatchEvent(new Event("resize"));
+  }, 50);
+}
+
+function setupThemeSettings() {
+  const toggle = document.getElementById("settings-toggle");
+  const panel = document.getElementById("settings-panel");
+  const savedMode = localStorage.getItem(THEME_STORAGE_KEY) || "system";
+
+  applyTheme(savedMode);
+
+  if (toggle && panel) {
+    toggle.addEventListener("click", event => {
+      event.stopPropagation();
+      panel.hidden = !panel.hidden;
+    });
+
+    document.addEventListener("click", event => {
+      if (!event.target.closest(".settings-widget")) {
+        panel.hidden = true;
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        panel.hidden = true;
+      }
+    });
+  }
+
+  document.querySelectorAll('input[name="theme-mode"]').forEach(input => {
+    input.addEventListener("change", () => {
+      applyTheme(input.value);
+    });
+  });
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    const currentMode = localStorage.getItem(THEME_STORAGE_KEY) || "system";
+
+    if (currentMode === "system") {
+      applyTheme("system");
+    }
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  setupThemeSettings();
+
+  await loadExternalCodeBlocks();
+  setupDisplayMoreButtons();
+  setupVantaBackground();
+});

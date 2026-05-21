@@ -10,6 +10,31 @@
 <body>
   <div id="vanta-bg"></div>
 
+  <div class="settings-widget">
+    <button id="settings-toggle" class="settings-toggle" type="button" aria-label="Open interface settings">
+      <span class="settings-icon">&#x2699;&#xfe0e;</span>
+    </button>
+
+    <div id="settings-panel" class="settings-panel" hidden>
+      <h3>Interface</h3>
+
+      <label class="theme-option">
+        <input type="radio" name="theme-mode" value="light">
+        <span>Bright</span>
+      </label>
+
+      <label class="theme-option">
+        <input type="radio" name="theme-mode" value="dark">
+        <span>Dark</span>
+      </label>
+
+      <label class="theme-option">
+        <input type="radio" name="theme-mode" value="system">
+        <span>System</span>
+      </label>
+    </div>
+  </div>
+  
   <div class="page-content">
       <div class="header">
         <head>
